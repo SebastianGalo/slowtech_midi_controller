@@ -24,6 +24,21 @@ Big thanks to the Swedish facebook group Arduinobubblan and the Arduino communit
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
 
-![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
+# hardware
 
+- Teensy LC
+- 595 shift registers (to be replaced with TLC5940NT or similar)
+- 4067 multiplexers
+- SSD 1306 128x64px oled i2c display
+- Tactile non-toggle switches with LEDS. 
+
+The two 595 shift registers will be replaced with TLC5940NT 16 channel LED PWM driver. 
+
+Only needs one resistor to the IC instead of one per LED.
+
+Prototype one will be made with through hole components, afterwards designed with SMD to make everything neater and smaller.
+
+
+Diagram over buttons and leds to the Teensy LC microcontroller.
+![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
 
