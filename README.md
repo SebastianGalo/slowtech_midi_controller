@@ -4,14 +4,14 @@
 
 # plans
 
-Modified to work with a Teensy LC.
+- Modify to work with a Teensy LC.
 
-Fix led lights corresponding to button presses.
+- Fix led lights corresponding to button presses.
 
-Toggle button sending midi at release. Choosable? 
+- Toggle button sending midi at release. Choosable? 
 
-Also to multiplex buttons and to show potentiometer value at an oled display.
-
-Big thanks to the Swedish facebook group Arduinobubblan and the Arduino community forum for supporting and helping along the way.
+- Also to multiplex buttons and to show potentiometer value at an oled display.
 
 # open source is key
+
+Big thanks to the Swedish facebook group Arduinobubblan and the Arduino community forum for supporting and helping along the way.
