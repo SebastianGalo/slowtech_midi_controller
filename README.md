@@ -7,13 +7,17 @@
 
 # Plans
 
-- Modify to work with a Teensy LC.
+- Modify to work with a Teensy LC. [check]
+
+- Multiplex buttons via digital input from 4067. [check]
+
+- Multiplex potentiometers via analog input from 4067. [check]
+
+- Show potentiometer value as a graph bar at an 128x64px oled display. Show midi channel and cc number of corresponding pot. [check]
 
 - Fix led lights corresponding to button presses.
 
 - Toggle button sending midi at release. Choosable? 
-
-- Also to multiplex buttons and to show potentiometer value as a graph bar at an 128x64px oled display.
 
 - Choose midi channel by holding one of the 16 buttons at startup?
 
