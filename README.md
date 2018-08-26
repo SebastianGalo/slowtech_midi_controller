@@ -24,4 +24,6 @@ Big thanks to the Swedish facebook group Arduinobubblan and the Arduino communit
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
 
+![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
+
 
