@@ -25,7 +25,7 @@
 
 - Encoders?
 
-# Designprocess
+# Design process
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/2017-02-21%2009.27.03.jpg)
 
