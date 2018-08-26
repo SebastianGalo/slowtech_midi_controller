@@ -10,7 +10,7 @@
 
 - Toggle button sending midi at release. Choosable? 
 
-- Also to multiplex buttons and to show potentiometer value at an oled display.
+- Also to multiplex buttons and to show potentiometer value as a graph bar at an 128x64px oled display.
 
 # open source is key
 
