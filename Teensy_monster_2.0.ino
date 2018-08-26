@@ -4,8 +4,9 @@
 // last updated April, 2014
 // license __ http://opensource.org/licenses/MIT
 // Edit v.2.0: Sebastian Galo 2018
-// Use name.c as tab in the sketch to show custom midi name
 
+// Use name.c as tab in the sketch to show custom midi name.
+// Complete code for the project with 128x64px oled display, 16 led-buttons and 64 potentiometers.
 
 
 // ======================================================================================
