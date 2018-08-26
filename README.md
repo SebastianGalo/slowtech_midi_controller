@@ -93,6 +93,7 @@ Multiplexer 4067:
 
 
 I2C table:
+
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Teensy%20i2c.png)
 
 
