@@ -13,7 +13,7 @@
 
 - Multiplex potentiometers via analog input from 4067. [check]
 
-- Show potentiometer value as a graph bar at an 128x64px oled display. Show midi channel and cc number of corresponding pot. [check]
+- Show potentiometer value as a graph bar at an 128x64px oled display. Show midi channel and cc number of corresponding potentiometer. [check]
 
 - Fix led lights corresponding to button presses.
 
