@@ -3,9 +3,15 @@
 // Code v1.0
 // last updated April, 2014
 // license __ http://opensource.org/licenses/MIT
-// Edit v.2.0: Sebastian Galo 2018
-// Use name.c as tab in the sketch to show custom midi name
+// Edit: Sebastian Galo 2018
 
+// Use name.c as tab in the sketch to show custom midi name
+// Distilled code for the project tested width 16 buttons, communication working fine. 
+// Maybe chashing due to midi overflow?
+// Button mode 4 sending messages directly when pressed instead of released.
+
+// Leds are not corresponding the right buttons, something wrong with the shift out. 
+// Led part is a mess in the code, not done at all. Further comments in Swedish in the loop.
 
 
 
@@ -287,13 +293,24 @@ void loop() {
 
 
 
-
-  // Nu skriver koden ut en variabel per pin i taget istället för att skicka 8 eller 16 samtidigt.
+  // Problemet ligger troligen i konvertering av bytes och bits från knapptryckningarna som är booleans? Osäker på detta.
+  // Koden skriver bara 1/0 per loop till hela shift register, istället för att skicka 8st eller 16st 1/0 samtidigt vid shiftout. 
+  // Detta gör att alla leds tänds/släcks vid en knapptryckning om jag förstått det rätt.
+  
+  // Endast knapp 16 ger utslag på leds. 
+  // Ska for looparna vara 8 eller 16? 
+  // Målsättning är att det ska gå att justera antal shift register likt antal knappar senare. Se länken:
+  // https://www.instructables.com/id/Arduino-16-LEDs-using-two-74HC595-shift-registers-/ 
+  
+  // Lösning:
   // Behöver göra byte eller int paket av tempDigitalRead5 (buttonstate?) för att kunna skicka alla på en gång.
-  // För 8st pins: 10000000 eller för 16: (första SR) 11100000 (överskjutande till andra SR) 00000000.
+  // Klarar shiftout mer än 8 bits åt gången eller får man skicka som fler paket?
+  // Har jag förstått funktionen rätt skjuts extra bits över till nästa SR automatiskt.
   //
-  // tempDigitalRead5 ger 1 eller 0 på alla pins samtidigt
-  // buttonState ger 1 eller 0 på motsvarande knapp
+  // Serial monnitor resultat:
+  // tempDigitalRead5 ger 1 eller 0 på alla pins samtidigt.
+  // buttonState ger 1 eller 0 på motsvarande knapp.
+  // data ger ?
 
 
 
