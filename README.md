@@ -15,6 +15,15 @@
 
 - Also to multiplex buttons and to show potentiometer value as a graph bar at an 128x64px oled display.
 
+- Choose midi channel by holding one of the 16 buttons at startup?
+
+- Possibility to set led brightness in some way. Button combination at startup to choose between 16 different levels?
+
+- Save last set midi channel and buttonstate(?) to EEPROM for later startup. 
+
+- Function button?
+
+- Encoders?
 
 # Designprocess
 
@@ -30,6 +39,13 @@ Buttons with 12 V LEDs.
 
 Replaced the leds with 2.1 V.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3682.JPG)
+
+# Code
+
+Resources:
+https://www.pjrc.com/teensy/teensyduino.html
+https://www.pjrc.com/teensy/td_midi.html
+https://www.pjrc.com/teensy/td_libs_SPI.html
 
 
 # Hardware
@@ -51,6 +67,18 @@ Prototype one will be made with through hole components, afterwards designed wit
 
 Diagram over buttons and leds to the Teensy LC microcontroller.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
+
+Shift register 595 
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/595_cascade.png)
+
+595 table over I/O and names
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/595_tabel.png)
+
+SPI table over Teensy LC I/O (we are using alternate pin 14 for SCK/clock) 
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Teensy%20SPI.png)
+
+Multiplexer 4067
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/cd4067.png)
 
 
 # Open source is key
