@@ -43,8 +43,11 @@ Replaced the leds with 2.1 V.
 # Code
 
 Resources:
+
 https://www.pjrc.com/teensy/teensyduino.html
+
 https://www.pjrc.com/teensy/td_midi.html
+
 https://www.pjrc.com/teensy/td_libs_SPI.html
 
 
