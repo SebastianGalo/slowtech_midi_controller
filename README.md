@@ -50,6 +50,7 @@ https://www.pjrc.com/teensy/td_midi.html
 
 https://www.pjrc.com/teensy/td_libs_SPI.html
 
+https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
 
 # Hardware
 
@@ -66,9 +67,11 @@ Only needs one resistor to the IC instead of one per LED.
 Prototype one will be made with through hole components, afterwards designed with SMD to make everything neater and smaller.
 
 
-# Diagrams and schematics
+# Diagrams
 
-Diagram over buttons and leds to the Teensy LC microcontroller.
+Diagram over display and potentiometers are on the way.
+
+Buttons and leds to the Teensy LC microcontroller.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
 
 Shift register 595 
@@ -82,6 +85,9 @@ SPI table over Teensy LC I/O (we are using alternate pin 14 for SCK/clock)
 
 Multiplexer 4067
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/cd4067.png)
+
+I2C table
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Teensy%20i2c.png)
 
 
 # Open source is key
