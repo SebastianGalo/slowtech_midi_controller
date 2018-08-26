@@ -24,6 +24,8 @@ Big thanks to the Swedish facebook group Arduinobubblan and the Arduino communit
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
 
+
+
 # hardware
 
 - Teensy LC
@@ -43,5 +45,3 @@ Prototype one will be made with through hole components, afterwards designed wit
 Diagram over buttons and leds to the Teensy LC microcontroller.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
 
-Teensy LC I/O
-[embed]https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/-%20Teensy_LC_font%2Bback.pdf[/embed]
