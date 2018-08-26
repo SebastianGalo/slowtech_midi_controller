@@ -3,8 +3,11 @@
 // Code v1.0
 // last updated April, 2014
 // license __ http://opensource.org/licenses/MIT
-// Edit v.2.0: Sebastian Galo 2018
+// Edit: Sebastian Galo 2018
+
 // Use name.c as tab in the sketch to show custom midi name
+// Code for the project with 16 potentiometers tested, working great beside some fluxuation and jumping values.
+// It's probably due to low quality hardware. Possible to make the values even smoother in the code?
 
 
 //libraries
