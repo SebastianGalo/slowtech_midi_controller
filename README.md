@@ -1,5 +1,7 @@
 # midi-controller-2.0
 
+![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render_01.jpg)
+
 // Based on https://github.com/FuzzyWobble/TeensyMonster
 
 # plans
@@ -15,3 +17,11 @@
 # open source is key
 
 Big thanks to the Swedish facebook group Arduinobubblan and the Arduino community forum for supporting and helping along the way.
+
+# designprocess
+
+![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/2017-02-21%2009.27.03.jpg)
+
+![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
+
+
