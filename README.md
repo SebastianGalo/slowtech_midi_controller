@@ -38,7 +38,10 @@ Only needs one resistor to the IC instead of one per LED.
 
 Prototype one will be made with through hole components, afterwards designed with SMD to make everything neater and smaller.
 
+# diagrams and schematics
 
 Diagram over buttons and leds to the Teensy LC microcontroller.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
 
+Teensy LC I/O
+![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/-%20Teensy_LC_font%2Bback.pdf)
