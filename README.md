@@ -1,10 +1,11 @@
-# midi-controller-2.0
+# Slowtech midi controller
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render_01.jpg)
 
 // Based on https://github.com/FuzzyWobble/TeensyMonster
 
-# plans
+
+# Plans
 
 - Modify to work with a Teensy LC.
 
@@ -14,11 +15,8 @@
 
 - Also to multiplex buttons and to show potentiometer value as a graph bar at an 128x64px oled display.
 
-# open source is key
 
-Big thanks to the Swedish facebook group Arduinobubblan and the Arduino community forum for supporting and helping along the way.
-
-# designprocess
+# Designprocess
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/2017-02-21%2009.27.03.jpg)
 
@@ -31,7 +29,7 @@ Big thanks to the Swedish facebook group Arduinobubblan and the Arduino communit
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3682.JPG)
 
 
-# hardware
+# Hardware
 
 - Teensy LC
 - 595 shift registers (to be replaced with TLC5940NT or similar)
@@ -45,8 +43,13 @@ Only needs one resistor to the IC instead of one per LED.
 
 Prototype one will be made with through hole components, afterwards designed with SMD to make everything neater and smaller.
 
-# diagrams and schematics
+
+# Diagrams and schematics
 
 Diagram over buttons and leds to the Teensy LC microcontroller.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
 
+
+# Open source is key
+
+Big thanks to the Swedish facebook group Arduinobubblan and the Arduino community forum for supporting and helping along the way.
