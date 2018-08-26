@@ -3,9 +3,14 @@
 // Code v1.0
 // last updated April, 2014
 // license __ http://opensource.org/licenses/MIT
-// Edit v.2.0: Sebastian Galo 2018
-// Use name.c as tab in the sketch to show custom midi name
+// Edit: Sebastian Galo 2018
 
+// Use name.c as tab in the sketch to show custom midi name.
+// Midi now sending at toggle release (mode 4).
+// Problem with floating values at button 1, 5, 9 and 13. Sending constantly when these buttons are pressed. 
+// Is it due to using internal_pullup instead of hardware resistors?
+// Working without problem in Teensy_monster_2.1_buttons.ino so it shouldn't.
+// Also sends all pins to 1 when starting the microcontroller.
 
 
 
