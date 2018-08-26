@@ -71,22 +71,28 @@ Prototype one will be made with through hole components, afterwards designed wit
 
 Diagram over display and potentiometers are on the way.
 
-Buttons and leds to the Teensy LC microcontroller.
+
+Buttons and leds to the Teensy LC microcontroller:
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
 
-Shift register 595 
+
+Shift register 595: 
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/595_cascade.png)
 
-595 table over I/O and names
+
+595 table over I/O and names:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/595_tabel.png)
 
-SPI table over Teensy LC I/O (we are using alternate pin 14 for SCK/clock) 
+
+SPI table over Teensy LC I/O (we are using alternate pin 14 for SCK/clock): 
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Teensy%20SPI.png)
 
-Multiplexer 4067
+
+Multiplexer 4067:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/cd4067.png)
 
-I2C table
+
+I2C table:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Teensy%20i2c.png)
 
 
