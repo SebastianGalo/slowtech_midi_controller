@@ -22,10 +22,13 @@
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
 
+Prototyping with 2 x 595 and one 4067:
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3610.JPG)
 
+Buttons with 12v LEDs.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3611.JPG)
 
+Replaced the leds with 2.1v.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3682.JPG)
 
 
