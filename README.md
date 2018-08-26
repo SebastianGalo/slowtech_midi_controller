@@ -44,7 +44,7 @@ Replaced the leds with 2.1 V.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3682.JPG)
 
 Testing potentiometers with Ableton Live throgh USB midi.
-[embed]https://www.youtube.com/watch?v=3gG5vzuutMg[/embed]
+[embed]https://youtu.be/3gG5vzuutMg[/embed]
 
 # Code
 
