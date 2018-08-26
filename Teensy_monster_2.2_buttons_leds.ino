@@ -6,7 +6,8 @@
 // Edit: Sebastian Galo 2018
 
 // Use name.c as tab in the sketch to show custom midi name
-// Distilled code for the project tested width 16 buttons, communication working fine. 
+// Distilled code for the project with leds included.
+// Tested width 16 buttons, midi communication working fine. 
 // Maybe chashing due to midi overflow?
 // Button mode 4 sending messages directly when pressed instead of released.
 
