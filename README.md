@@ -31,6 +31,9 @@
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
 
+Replaced the leds with 2.1 V.
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Breadboard.jpg)
+
 Prototyping with 2 x 595 and one 4067:
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3610.JPG)
 
@@ -39,6 +42,7 @@ Buttons with 12 V LEDs.
 
 Replaced the leds with 2.1 V.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3682.JPG)
+
 
 # Code
 
