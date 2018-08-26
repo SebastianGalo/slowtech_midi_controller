@@ -7,7 +7,7 @@
 
 // Use name.c as tab in the sketch to show custom midi name
 // Code for the project with 16 potentiometers tested, working great beside some fluxuation and jumping values.
-// It's probably due to low quality hardware. Possible to make the values even smoother in the code?
+// It's probably due to low quality hardware. Possible to make the values even smoother in the code though?
 
 
 //libraries
