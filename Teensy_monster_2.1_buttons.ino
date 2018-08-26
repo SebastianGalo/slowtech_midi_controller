@@ -3,8 +3,10 @@
 // Code v1.0
 // last updated April, 2014
 // license __ http://opensource.org/licenses/MIT
-// Edit v.2.0: Sebastian Galo 2018
+// Edit: Sebastian Galo 2018
+
 // Use name.c as tab in the sketch to show custom midi name
+// Distilled code for the project with 16 buttons only.
 
 
 
