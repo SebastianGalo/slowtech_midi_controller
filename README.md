@@ -29,6 +29,9 @@
 
 - Encoders?
 
+- Buss PCB layout with ribbon connectors for easy customisaton?
+
+
 # Design process
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/2017-02-21%2009.27.03.jpg)
@@ -85,20 +88,12 @@ Complete diagram of project, code not yet updated with I/O:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_midi_controller_diagram_complete.jpg)
 
 
-Shift register 595: 
-![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/595_cascade.png)
-
-
 595 table over I/O and names:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/595_tabel.png)
 
 
 SPI table over Teensy LC I/O (we are using alternate pin 14 for SCK/clock): 
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Teensy%20SPI.png)
-
-
-Multiplexer 4067:
-![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/cd4067.png)
 
 
 I2C table:
