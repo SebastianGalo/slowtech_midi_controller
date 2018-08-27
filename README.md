@@ -80,8 +80,6 @@ Prototype one will be made with through hole components, afterwards designed wit
 
 # Diagrams
 
-Diagram over display and potentiometers are on the way.
-
 
 Complete diagram of project, code not yet updated with I/O:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_midi_controller_diagram_complete.jpg)
