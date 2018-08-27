@@ -1,9 +1,6 @@
-// Teensy Monster V1
-// teensymonster.cc
-// Code v1.0
-// last updated April, 2014
-// license __ http://opensource.org/licenses/MIT
-// Edit: Sebastian Galo 2018
+// This project is based on the Teensy Monster 1.0: https://github.com/FuzzyWobble/TeensyMonster
+// License: http://opensource.org/licenses/MIT
+// Edit: Imbecillen / Sebastian Galo 2018
 
 // Use name.c as tab in the sketch to show custom midi name.
 // Complete code for the project with 128x64px oled display, 16 led-buttons and 64 potentiometers.
