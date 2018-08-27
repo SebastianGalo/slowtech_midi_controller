@@ -84,7 +84,7 @@ Diagram over display and potentiometers are on the way.
 
 
 Buttons and leds to the Teensy LC microcontroller:
-![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/Buttons_leds_diagram.jpg)
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_midi_controller_diagram_complete.jpg)
 
 
 Shift register 595: 
