@@ -7,7 +7,7 @@
 // Problem with floating values at button 1, 5, 9 and 13. Sending constantly when these buttons are pressed. 
 // Is it due to using internal_pullup instead of hardware resistors?
 // Working without problem in Teensy_monster_2.1_buttons.ino so it shouldn't.
-// Also sends all pins to 1 when starting the microcontroller.
+// Also sets all pins to 1 when starting the microcontroller.
 
 
 
