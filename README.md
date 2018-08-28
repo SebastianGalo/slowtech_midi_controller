@@ -38,22 +38,22 @@
 
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/source/Render.JPG)
 
-Breadboard prototype:
+Breadboard prototype v 1.0:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Breadboard.jpg)
 
 Prototyping with 2 x 595 and one 4067:
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3610.JPG)
 
-Buttons with 12 V LEDs.
+Buttons with 12 V LEDs:
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3611.JPG)
 
-Backside of Teensy board
+Backside of Teensy board:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3688.JPG)
 
-Frontside of Teensy board
+Frontside of Teensy board:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3686.JPG)
 
-Prototype v.1.0
+Prototype v 2.0:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693.JPG)
 
 Testing potentiometers with Ableton Live throgh USB midi.
