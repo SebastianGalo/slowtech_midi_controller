@@ -54,7 +54,7 @@ Frontside of Teensy board:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3686.JPG)
 
 Prototype v 2.0:
-![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693.JPG)
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693_1.jpg)
 
 Testing potentiometers with Ableton Live throgh USB midi.
 
