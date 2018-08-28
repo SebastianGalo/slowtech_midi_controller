@@ -84,7 +84,7 @@ Prototype one will be made with through hole components, afterwards designed wit
 # Diagrams
 
 
-Complete diagram of project, code not yet updated with I/O:
+Complete diagram of version: slowtech_2.3
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_midi_controller_diagram_complete.jpg)
 
 
