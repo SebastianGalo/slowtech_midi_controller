@@ -47,8 +47,14 @@ Prototyping with 2 x 595 and one 4067:
 Buttons with 12 V LEDs.
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3611.JPG)
 
-Replaced the leds with 2.1 V.
-![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3682.JPG)
+Backside of Teensy board
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3688.JPG)
+
+Frontside of Teensy board
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3686.JPG)
+
+Prototype v.1.0
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693.JPG)
 
 Testing potentiometers with Ableton Live throgh USB midi.
 
@@ -85,7 +91,7 @@ Prototype one will be made with through hole components, afterwards designed wit
 
 
 Complete diagram of version: slowtech_2.3
-![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_midi_controller_diagram_complete.jpg)
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_2.3.jpg)
 
 
 595 table over I/O and names:
