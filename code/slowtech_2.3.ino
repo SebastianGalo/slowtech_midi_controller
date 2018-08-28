@@ -4,7 +4,13 @@
 
 // Use name.c as tab in the sketch to show custom midi name.
 // Complete code for the project with 128x64px oled display, 16 led-buttons and 64 potentiometers.
+// Updated slowtech_2.0 to work with the soldered PCB layout. 
+// Updated I/O on Teensy and names on the digital VS analog multiplexers for better structure.
 
+// Merged with branches:
+// 2.1 potentiometers
+// 2.2 buttons toggle release
+// 2.2 buttons leds
 
 // ======================================================================================
 // LIBRARIES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
