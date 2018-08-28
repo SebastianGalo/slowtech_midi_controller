@@ -110,3 +110,5 @@ I2C table:
 # Open source is key
 
 Big thanks to the Swedish facebook group Arduinobubblan and the Arduino community forum for supporting and helping along the way.
+
+This project is free to develope and use according to MIT licence. Keep it open source for the future!
