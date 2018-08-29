@@ -195,7 +195,7 @@ int digitalMuxChannel1[16][4] = {{0, 0, 0, 0}, {1, 0, 0, 0}, {0, 1, 0, 0}, {1, 1
 int digitalReadMux1(int digitalChannel1) {
   //loop through the four control pins
   for (int i = 0; i < 4; i ++) {
-    delayMicroseconds (20);
+    delayMicroseconds (20); // solved half of the bugg with double messages sent
     //turn on/off the appropriate control pins according to what channel we are trying to read
     digitalWrite(digitalControlPin1[i], digitalMuxChannel1[digitalChannel1][i]);
   }
@@ -456,3 +456,5 @@ void midiSend(char type, int val, int pin) {
 
   }
 } // VOID END
+
+
