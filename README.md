@@ -51,7 +51,7 @@ Backside of Teensy board:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3688.JPG)
 
 Frontside of Teensy board:
-![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3686.JPG)
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3695_1.jpg)
 
 Prototype v 2.0:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693_1.jpg)
