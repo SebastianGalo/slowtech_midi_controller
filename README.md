@@ -15,7 +15,7 @@
 
 - Multiplex buttons via digital input from 4067. Debounce bugfix left.
 
-- LED callback from DAW/synth.
+- LED callback from DAW/synth through 595 shift registers.
 
 - Choose midi channel by holding one of the 16 buttons at startup?
 
