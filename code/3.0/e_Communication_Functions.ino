@@ -32,7 +32,7 @@
     
         digitalWrite(latchPin, LOW);
         shiftOut(dataPin, clockPin, MSBFIRST, note);
-        digitalWrite(latchPin, HIGH);  //Write 'pitch' to 74HC595. Standard fare
+        digitalWrite(latchPin, HIGH);  
   }
 
   void noteOff(byte channel, byte note, byte velocity) {
