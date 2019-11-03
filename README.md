@@ -9,27 +9,32 @@
 
 - Compatible with a Teensy LC. [check]
 
-- Multiplex potentiometers via analog input from 4067. [check]
+- Multiplex potentiometers via analog input from IC 4067. [check]
 
 - Show potentiometer value as a graph bar at an 128x64px oled display. Show midi channel and cc number of corresponding potentiometer. [check]
 
-- Multiplex buttons via digital input from 4067. Debounce bugfix left.
+- Multiplex buttons via digital input from IC 4067. [check]
 
-- LED flickering when off.
+- LED callback from DAW/synth through shift register IC 595. [needs bugfix, is it a hardware problem?]
 
-- LED callback from DAW/synth through 595 shift registers.
+- Buss PCB layout with ribbon connectors for easy customisaton [prototyping]
+
+
+
+- Set midi channel and buttonstate(?) to EEPROM. 
+
+- Sync CC/note values with computer and send midi in both directions to correct the "starting point".
+
+
 
 - Choose midi channel by holding one of the 16 buttons at startup?
 
-- Possibility to set led brightness in some way. Button combination at startup to choose between 16 different levels?
-
-- Save last set midi channel and buttonstate(?) to EEPROM for later startup. 
+- Possibility to set led brightness. Button combination at startup to choose between 16 different levels?
 
 - Function button?
 
 - Encoders?
 
-- Buss PCB layout with ribbon connectors for easy customisaton?
 
 
 # Design process
@@ -56,6 +61,12 @@ Frontside of Teensy board:
 Prototype v 2.0:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693_1.jpg)
 
+Prototype v 3.0:
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_6982.JPG)
+
+Prototype v 3.0:
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_6981.JPG)
+
 Testing potentiometers with Ableton Live throgh USB midi.
 
 https://www.youtube.com/watch?v=3gG5vzuutMg
@@ -78,7 +89,8 @@ https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
 - 595 shift registers (to be replaced with TLC5940NT or similar)
 - 4067 multiplexers
 - SSD 1306 128x64px oled i2c display
-- Tactile non-toggle switches with LEDS. 
+- Tactile non-toggle switches
+- LEDs for feedback
 
 The two 595 shift registers will be replaced with TLC5940NT 16 channel LED PWM driver. 
 
