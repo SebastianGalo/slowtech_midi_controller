@@ -21,7 +21,7 @@
 
 
 
-- Set midi channel and buttonstate(?) to EEPROM. 
+- Set midi channel to EEPROM. 
 
 - Sync CC/note values with computer and send midi in both directions to correct the "starting point".
 
