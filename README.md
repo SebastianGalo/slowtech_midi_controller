@@ -46,7 +46,7 @@
 Breadboard prototype v 1.0:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Breadboard.jpg)
 
-Prototyping with 2 x 595 and one 4067:
+Prototyping with two 595 and two 4067 IC's:
 ![front](https://github.com/Imbecillen/midi-controller-2.0/blob/master/hardware/designprocess/IMG_3610.JPG)
 
 Buttons with 12 V LEDs:
@@ -61,10 +61,10 @@ Frontside of Teensy board:
 Prototype v 2.0:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_3693_1.jpg)
 
-Prototype v 3.0:
+Prototype v 3.0, 2v LEDS and pull-up resistors:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_6982.JPG)
 
-Prototype v 3.0:
+Prototype v 3.0, 2v LEDS and pull-up resistors:
 ![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/designprocess/IMG_6981.JPG)
 
 Testing potentiometers with Ableton Live throgh USB midi.
@@ -102,8 +102,8 @@ Prototype one will be made with through hole components, afterwards designed wit
 # Diagrams
 
 
-Complete diagram of version: slowtech_2.3
-![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_2.3.jpg)
+Complete diagram of version: slowtech_3.0 (needs revision on switch-board routing)
+![front](https://github.com/Imbecillen/slowtech_midi_controller/blob/master/hardware/Slowtech_complete_3.0.jpg)
 
 
 595 table over I/O and names:
