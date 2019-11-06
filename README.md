@@ -5,7 +5,7 @@
 // Based on https://github.com/FuzzyWobble/TeensyMonster
 
 
-# Plans
+# To do:
 
 - Compatible with a Teensy LC. [check]
 
@@ -15,25 +15,15 @@
 
 - Multiplex buttons via digital input from IC 4067. [check]
 
-- LED callback from DAW/synth through shift register IC 595. [needs bugfix, is it a hardware problem?]
+- Buss PCB layout with ribbon connectors for easy customisaton [v.2.0 hardware check]
 
-- Buss PCB layout with ribbon connectors for easy customisaton [prototyping]
+- LED callback from DAW/synth through shift register IC 595. [need integration]
 
+- Choose midi channel by holding one of the 16 buttons at startup, and store to EEPROM. [need research]
 
+- Sync CC/note values with computer and send midi in both directions to correct the "starting point". [need research]
 
-- Set midi channel to EEPROM. 
-
-- Sync CC/note values with computer and send midi in both directions to correct the "starting point".
-
-
-
-- Choose midi channel by holding one of the 16 buttons at startup?
-
-- Possibility to set led brightness. Button combination at startup to choose between 16 different levels?
-
-- Function button?
-
-- Encoders?
+- Possibility to set led brightness. Button combination at startup to choose between 16 different levels. [need research]
 
 
 
