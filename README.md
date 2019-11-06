@@ -15,7 +15,7 @@
 
 - Multiplex buttons via digital input from IC 4067. [check]
 
-- Buss PCB layout with ribbon connectors for easy customisaton and scalability [v.2.0 hardware check]
+- Buss PCB layout with ribbon connectors for easy customisaton and scalability [v.3.0 hardware check]
 
 - LED callback from DAW/synth through shift register IC 595. [need integration]
 
