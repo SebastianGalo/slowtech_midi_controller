@@ -13,13 +13,13 @@
 
 - Multiplex potentiometers via analog input from IC 4067. [check]
 
-- Show potentiometer value as a graph bar at an 128x64px oled display. Show midi channel and cc number of corresponding potentiometer. [check]
-
 - Multiplex buttons via digital input from IC 4067. [check]
 
-- Buss PCB layout with ribbon connectors for easy customisaton and scalability [v.3.0 hardware check]
-
 - LED callback from DAW/synth through shift register IC 595. [need integration]
+
+- Show potentiometer value as a graph bar with a 128x64px oled display. Show midi channel and cc number of corresponding potentiometer. [check]
+
+- Buss PCB layout with ribbon connectors for easy customisaton and scalability [v.3.0 hardware check]
 
 - Choose midi channel by holding one of the 16 buttons at startup, and store to EEPROM. [need research]
 
