@@ -7,9 +7,9 @@
 
 # To do:
 
-- Compatible with Teensy. [check]
-
 - Class compliant. [check]
+
+- Compatible with Teensy. [check]
 
 - Multiplex potentiometers via analog input from IC 4067. [check]
 
