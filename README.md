@@ -78,17 +78,17 @@ https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
 # Hardware
 
 - Teensy LC
-- 595 shift registers (to be replaced with TLC5940NT or similar)
+- 595 shift registers
 - 4067 multiplexers
 - SSD 1306 128x64px oled i2c display
-- Tactile non-toggle switches
-- LEDs for feedback
+- Tactile switches
+- LED feedback
 
-The two 595 shift registers will be replaced with TLC5940NT 16 channel LED PWM driver. 
+The two 595 shift registers will be replaced with a 5940 IC, 16 channel LED PWM driver. 
 
 Only needs one resistor to the IC instead of one per LED.
 
-Prototype one will be made with through hole components, afterwards designed with SMD to make everything neater and smaller.
+Prototyping will be made with through hole components, afterwards designed with SMD to make everything neater and smaller.
 
 
 # Diagrams
