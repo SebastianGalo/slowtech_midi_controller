@@ -9,6 +9,8 @@
 
 - Compatible with Teensy. [check]
 
+- Class compliant. [check]
+
 - Multiplex potentiometers via analog input from IC 4067. [check]
 
 - Show potentiometer value as a graph bar at an 128x64px oled display. Show midi channel and cc number of corresponding potentiometer. [check]
